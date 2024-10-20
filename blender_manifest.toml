@@ -1,0 +1,37 @@
+schema_version = "1.0.0"
+
+id = "quick_symmetrize"
+version = "1.0.0"
+name = "Quick Symmetrize"
+tagline = "Adds a single utility operator (and context menu entry) to quickly bisect and mirror a mesh along a selected axis."
+maintainer = "Nick Glenn <hello@nick-glenn.com>"
+type = "add-on"
+
+# # Optional: link to documentation, support, source files, etc
+website = "https://github.com/NickGlenn/QuickSymmetrize"
+
+# # Optional: tag list defined by Blender and server, see:
+# # https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
+tags = ["Mesh", "Modeling"]
+
+blender_version_min = "4.2.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = ["SPDX:GPL-3.0-or-later"]
+# # Optional: required by some licenses.
+# copyright = [
+#   "2002-2024 Developer Name",
+#   "1998 Company Name",
+# ]
+
+# # Optional: advanced build settings.
+# # https://docs.blender.org/manual/en/dev/advanced/extensions/command_line_arguments.html#command-line-args-extension-build
+# [build]
+# # These are the default build excluded patterns.
+# # You only need to edit them if you want different options.
+# paths_exclude_pattern = [
+#   "__pycache__/",
+#   "/.git/",
+#   "/*.zip",
+# ]
